@@ -3,7 +3,7 @@ const GlobalContext = React.createContext()
 import axios from "axios"
 import { useContext, useState } from "react"
 
-const BASE_URL= "http://localhost:5000/api/v1/"
+const BASE_URL= "https://expensemanager-whi2.onrender.com"
 export const  GlobalProvider = ({children}) => {
 
     const [incomes, setIncomes] = useState([])
