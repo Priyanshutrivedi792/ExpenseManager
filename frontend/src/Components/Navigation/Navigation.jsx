@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import avatar from '../../img/avt.png'
-import {signup} from '../../Utils/icons'
+import {signout } from '../../Utils/icons'
 import {menuItems} from '../../Utils/menuitems.jsx'
 
 function Navigation({active, setActive}) {
